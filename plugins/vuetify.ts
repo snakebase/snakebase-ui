@@ -4,6 +4,22 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
 export default defineNuxtPlugin(nuxtApp => {
+  const snakebaseTheme = {
+    dark: true,
+    colors: {
+      'background': '#646464',
+      'surface': '#1E1E1E',
+      'primary': '#FFE873',
+      'primary-darken': '#FFD43B',
+      'secondary': '#4B8BBE',
+      'secondary-darken': '#306998',
+      'error': '#B00020',
+      'info': '#2196F3',
+      'success': '#4CAF50',
+      'warning': '#FB8C00',
+    }
+  }
+
   const vuetify = createVuetify({
     components,
     directives,
@@ -15,7 +31,10 @@ export default defineNuxtPlugin(nuxtApp => {
       }
     },
     theme: {
-      defaultTheme: 'dark',
+      defaultTheme: 'snakebaseTheme',
+      themes: {
+        snakebaseTheme,
+      },
     },
   })
 
