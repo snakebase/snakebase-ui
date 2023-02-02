@@ -6,6 +6,6 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
-  ssr: true,
+  ssr: false,
   vite: {},
 })
