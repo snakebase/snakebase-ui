@@ -7,8 +7,8 @@ export default defineNuxtPlugin(nuxtApp => {
   const snakebaseTheme = {
     dark: true,
     colors: {
-      'background': '#646464',
-      'surface': '#1E1E1E',
+      'background': '#1C1B22',
+      'surface': '#232228',
       'primary': '#FFE873',
       'primary-darken': '#FFD43B',
       'secondary': '#4B8BBE',
