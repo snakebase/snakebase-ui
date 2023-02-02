@@ -1,6 +1,7 @@
 <template>
   <v-btn color="primary">Primary</v-btn>
   <v-btn color="primary-darken">Primary Darken</v-btn>
+  <br />
   <v-btn color="secondary">Secondary</v-btn>
   <v-btn color="secondary-darken">Secondary Darken</v-btn>
   <br />
