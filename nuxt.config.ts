@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   app: {
-    baseURL: '/ui',
+    baseURL: '/',
   },
   css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.css' ],
   build: {
