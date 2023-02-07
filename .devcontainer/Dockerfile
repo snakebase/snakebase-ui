@@ -3,8 +3,8 @@ FROM archlinux
 # Update the system
 RUN pacman -Syyu --noconfirm
 
-# Install Git, NodeJS and Yarn
-RUN pacman -S --noconfirm git nodejs yarn
+# Install Docker, Git, NodeJS and Yarn
+RUN pacman -S --noconfirm docker git nodejs yarn
 
 # Install Zsh and OhMyZsh
 RUN pacman -S --noconfirm zsh

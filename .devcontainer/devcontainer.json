@@ -12,5 +12,7 @@
 	"forwardPorts": [
 		3000
 	],
-	"postCreateCommand": "yarn"
+	"mounts": ["source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"],
+	"postCreateCommand": "yarn",
+	"runArgs": ["--init", "--privileged"]
 }
