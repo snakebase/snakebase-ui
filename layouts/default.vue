@@ -26,14 +26,16 @@
         <nuxt-link to="/storage">
           <v-list-item prepend-icon="mdi-harddisk" title="Storage" value="storages" />
         </nuxt-link>
+
         <v-divider />
+
         <nuxt-link to="/api-docs">
           <v-list-item prepend-icon="mdi-file-document-multiple" title="API Docs" value="api-docs" />
         </nuxt-link>
-        <nuxt-link to="/metrics">
+        <nuxt-link to="/logs">
           <v-list-item prepend-icon="mdi-format-list-group" title="Logs" value="logs" />
         </nuxt-link>
-        <nuxt-link to="/logs">
+        <nuxt-link to="/metrics">
           <v-list-item prepend-icon="mdi-chart-bar" title="Metrics" value="metrics" />
         </nuxt-link>
 
