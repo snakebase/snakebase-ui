@@ -9,5 +9,14 @@
 	},
 	"forwardPorts": [
 		3000
-	]
+	],
+	"postCreateCommand": "yarn",
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "zsh",
+		"terminal.integrated.profiles.linux": {
+			"zsh": {
+				"path": "/usr//bin/zsh"
+			}
+		}
+	}
 }
